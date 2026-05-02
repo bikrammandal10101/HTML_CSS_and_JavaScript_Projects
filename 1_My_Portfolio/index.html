@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">My Portfolio</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm BIKRAM MANDAL</h1>
+            <p>Full Stack Developer & Penetration Tester</p>
+            <a href="#about" class="cta-button">Discover My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section scroll-animate">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-image">👨‍💻</div>
+            <div class="about-text">
+                <h3>Passionate Developer & Penetration Tester</h3>
+                <p>Hey there! 👋 I'm, <strong>BIKRAM MANDAL</strong> — a passionate <strong>Full Stack
+                        Developer</strong> and an active <strong>Penetration Tester</strong>. I love building scalable
+                    web apps and digging deep into application security to break things (ethically 😉) and make them
+                    stronger.</p>
+                <p>With a strong grip on both <strong>frontend & backend technologies</strong>, I bridge the gap between
+                    beautiful UI and powerful functionality. On the other side, my curiosity for cybersecurity drives me
+                    to explore vulnerabilities, write custom tools, and contribute to bug bounty platforms.</p>
+                <p>When I'm not immersed in <strong>coding or security testing</strong>, I focus on developing
+                    <strong>custom tools</strong>, exploring advanced <strong>vulnerabilities</strong>, and constantly
+                    sharpening my skillset in <strong>development and hacking</strong>. I'm always eager to learn and
+                    contribute to the open-source community.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section scroll-animate">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon">🌐</div>
+                <h3>Frontend Development</h3>
+                <p>HTML5, CSS3, JavaScript, React</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">⚙️</div>
+                <h3>Backend Development</h3>
+                <p>PHP, Node.js, Express, Python</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">👨‍💻</div>
+                <h3>Programming Languages</h3>
+                <p>C, C#, Java, Python</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">📊</div>
+                <h3>Database Management</h3>
+                <p>SQL, MongoDB</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section scroll-animate">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">🔐</div>
+                <div class="project-content">
+                    <div class="project-title">SSH Login Logger</div>
+                    <div class="project-description">A custom-built Linux tool to monitor and log SSH login events with
+                        timestamps, user details, and optional email alerts.</div>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">🕵️‍♂️</div>
+                <div class="project-content">
+                    <div class="project-title">Subdomain Recon Tool</div>
+                    <div class="project-description">A CLI-based tool built with Python that automates subdomain
+                        enumeration using DNS bruteforce and APIs.</div>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">🛠️</div>
+                <div class="project-content">
+                    <div class="project-title">Custom Vulnerability Scanner</div>
+                    <div class="project-description">A modular vulnerability scanner using Nuclei templates and ffuf
+                        integration for quick recon.</div>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <h2>Get In Touch</h2>
+        <div class="contact-content">
+            <p>Ready to start your next project? Let's work together to create something amazing!</p>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="your@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" placeholder="Your message here..."></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-links">
+            <a href="mailto:bikrammandal10101@gmail.com" class="social-link" title="Gmail">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://www.instagram.com/hackerspectre" target="_blank" class="social-link"
+                title="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://github.com/hackerspectre" target="_blank" class="social-link" title="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.youtube.com/@hackerspectre" target="_blank" class="social-link" title="YouTube">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+        <p>&copy; 2026 My Portfolio. Made with &#10084;&#65039; by BIKRAM MANDAL</p>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
