@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>My Todo List</h1>
+            <p>Get things done, one task at a time</p>
+        </div>
+
+        <div class="input-container">
+            <input type="text" id="todo-input" placeholder="Add a new task...">
+            <button id="add-btn">Add</button>
+        </div>
+
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="active">Active</button>
+            <button class="filter-btn" data-filter="completed">Completed</button>
+        </div>
+
+        <ul class="todo-list" id="todo-list">
+            <!-- Todo items will be added here dynamically -->
+            <div class="empty-state" id="empty-state">
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWxpc3QtY2hlY2siPjxwYXRoIGQ9Ik0zIDE3aDQiLz48cGF0aCBkPSJNMyAxMmg0Ii8+PHBhdGggZD0iTTMgN2g0Ii8+PHBhdGggZD0iTTcgN2wxMCAxMCIvPjxwYXRoIGQ9Im0xNyA3LTEwIDEwIi8+PC9zdmc+"
+                    alt="Empty list">
+                <h3>No tasks yet</h3>
+                <p>Add a task to get started</p>
+            </div>
+        </ul>
+
+        <div class="stats" id="stats">
+            0 tasks remaining
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
