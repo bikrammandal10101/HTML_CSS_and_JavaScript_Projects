@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simon Game</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <div class="game-container">
+    <div class="game-btn red" id="red"></div>
+    <div class="game-btn green" id="green"></div>
+    <div class="game-btn blue" id="blue"></div>
+    <div class="game-btn yellow" id="yellow"></div>
+
+    <div class="center-circle">
+      <div class="controls">
+        <div class="score">
+          <span id="score">--</span>
+        </div>
+        <div>
+          <button class="btn start-btn" id="start">START</button>
+          <button class="btn" id="reset">RESET</button>
+        </div>
+        <div class="strict-mode">
+          STRICT
+          <div class="strict-btn" id="strict"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <audio id="red-sound" src="https://www.soundjay.com/buttons/sounds/button-09.mp3" preload="auto"></audio>
+  <audio id="green-sound" src="https://www.soundjay.com/buttons/sounds/button-09.mp3" preload="auto"></audio>
+  <audio id="blue-sound" src="https://www.soundjay.com/buttons/sounds/button-09.mp3" preload="auto"></audio>
+  <audio id="yellow-sound" src="https://www.soundjay.com/buttons/sounds/button-09.mp3" preload="auto"></audio>
+  <audio id="error-sound" src="https://www.soundjay.com/buttons/sounds/button-10.mp3" preload="auto"></audio>
+  <audio id="win-sound" src="https://www.soundjay.com/buttons/sounds/button-21.mp3" preload="auto"></audio>
+
+  <script src="/script.js"></script>
+</body>
+
+</html>
